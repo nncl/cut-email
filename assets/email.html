@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CUT Brasil</title>
+    <style media="screen">
+      .dd-table {
+        font: 16px Tahoma, sans-serif, Arial;
+        text-align: center;
+        color: #000;
+      }
+
+      .dd-logo {
+        padding: 30px;
+      }
+
+      .dd-title {
+        font-size: 26px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center" width="100%">
+          <table class="dd-table" style="font: 16px Tahoma, sans-serif, Arial;text-align: center;color: #000;">
+            <tr>
+              <td>
+                <img src="http://s11.postimg.org/cgwq36vmr/icon.jpg" alt="CUT Brasil" class="dd-logo" style="padding: 30px;">
+                <h1 class="dd-title" style="font-size: 26px;font-weight: bold;">Solicitação de recuperação de senha</h1>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Olá {{$name_user}} , você solicitou recuperar sua senha de acesso </p>
+                <p>Digite o código <strong>{{$code_recover}}</strong> no aplicativo para recuperar sua senha.
+              </p></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
